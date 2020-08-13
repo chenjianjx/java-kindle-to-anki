@@ -7,10 +7,10 @@ Note:  minimum jdk (not just jre) version: 1.8
 
 ```bash
 mvn clean package 
-unzip target/java-kindle-to-anki*jarset.zip -d /path/to/your/dir
-cd /path/to/your/dir/java-kindle-to-anki*
+unzip target/kindle-to-anki*jarset.zip -d /path/to/your/dir
+cd /path/to/your/dir/kindle-to-anki*
 ./k2a.sh #Just to see the arguments
-./k2a.sh /path/to/your/kindleHightlights.html  
+./k2a.sh /path/to/your/kindleHighlights.html  
 # or k2a.bat for windows
 ``` 
 

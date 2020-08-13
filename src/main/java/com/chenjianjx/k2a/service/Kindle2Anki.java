@@ -17,7 +17,7 @@ public class Kindle2Anki {
 
     public String convert(String kindleHighlights) throws IOException {
         List<AnkiCard> ankiCards = parse(kindleHighlights);
-        System.out.println(ankiCards.size() + " of anki cards in total");
+        System.out.println(ankiCards.size() + " of anki cards will be created");
         return cardsToCsv(ankiCards);
 
     }
