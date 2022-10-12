@@ -17,4 +17,4 @@ cd /path/to/your/dir/kindle-to-anki*
 After that you will get a csv file.  Import it into your Anki application. 
 You will see new cards created:  
 * the front of a card is a highlight
-* the backend is empty
+* the back is empty
